@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <Setter Property="Control.Background" Value="White"/>
+        <Setter Property="Control.Foreground" Value="Black"/>
+    </Style>
+    <Style x:Key="TextBlokStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="TextBlock.Padding" Value="10"/>
+    </Style>
+    <Style x:Key="TextBlokCenterStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="TextBlokJuatifyStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="TextBlock.TextAlignment" Value="Justify"/>
+    </Style>
+    <Style x:Key="ButtonStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Button.BorderBrush" Value="Black"/>
+        <Setter Property="Button.Margin" Value="10"/>
+        <Setter Property="Button.Padding" Value="10"/>
+    </Style>
+    <Style x:Key="ComboBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ComboBox.BorderBrush" Value="Black"/>
+        <Setter Property="ComboBox.Margin" Value="10"/>
+        <Setter Property="ComboBox.Padding" Value="10"/>
+    </Style>
+</ResourceDictionary>
